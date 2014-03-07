@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<% if current_user != nil %>
+You have Logged in
+	<% if current_user.admin? %>
+	<br />
+	You are admin
+	<% end %>
+<% else %>
+You are nothing
+<% end %>
+<br />
+
+<%= link_to 'Make admin', to_admin_path(current_user.id) %>
+<%= link_to 'Make user', to_user_path(current_user.id) %>
