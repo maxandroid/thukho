@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Thukho::Application.config.secret_key_base = 'a12fdac41561bc6d8c863d8487c8ceebf2f6f43ba670ff3176a7b3724218ea7fc1006083cf97026fc532af232c6a01f6582f5d69f76db5cb7604f44f202c28ac'
+Thukho::Application.config.secret_key_base = 'fd7adcdc4fca8ac2b62b7845d42ca16fb849329d3469f175a6ae714af772bcc750cbdbb4acec2d21f315261115862ec0e7416e72e6180300943abaa0a17fa2a6'
