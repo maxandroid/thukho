@@ -1,12 +1,4 @@
 Thukho::Application.routes.draw do
-  resources :tests
-  
-  get 'home', :to => 'home#index', :as => :home
-  get 'manager/user/:id/set_to_admin', :to => 'system_manager#set_to_admin', :as => 'to_admin'
-  get 'manager/user/:id/set_to_user', :to => 'system_manager#set_to_user', :as => 'to_user'
-
-  devise_for :admins
-  devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
